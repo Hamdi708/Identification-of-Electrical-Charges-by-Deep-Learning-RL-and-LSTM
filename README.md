@@ -35,6 +35,18 @@ The dataset contains energy consumption data for each house as a whole, as well 
 
 The `lowfreq/` directory contains average power readings for both the main grid and the individual circuits of each house. The data is recorded at a frequency of about once per second for the grid, and once every three seconds for the circuits.
 
+## Load Disaggregation Test
+
+In this section, we perform a disaggregation test on the general load curve to identify individual electrical loads by applying the reinforcement learning model based on the LSTM algorithm. The curves display the energy consumption of various appliances, such as dishwasher, lighting, washer-dryer, refrigerator, oven, microwave, and electric heating, disaggregated from a general load curve.
+
+The results of the proposed model are shown below. The histogram illustrates two curves: the upper curve represents the total power consumption, which is to be disaggregated, and the lower curve represents our model's estimation, identifying the electrical usage in the household from the aggregated general curve. 
+
+The appliances are listed in descending order of their energy consumption rates, as follows: refrigerator, lighting, washer-dryer, dishwasher, and microwave. The gap between the two curves represents the power consumed by other household appliances.
+
+## Results
+
+![Load Disaggregation Model](images/EvaluationPNG.png)
+
 ## Technologies Used
 - Python
 - Reinforcement Learning
