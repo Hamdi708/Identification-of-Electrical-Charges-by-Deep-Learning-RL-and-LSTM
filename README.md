@@ -43,9 +43,7 @@ The results of the proposed model are shown below. The histogram illustrates two
 
 The appliances are listed in descending order of their energy consumption rates, as follows: refrigerator, lighting, washer-dryer, dishwasher, and microwave. The gap between the two curves represents the power consumed by other household appliances.
 
-## Results
-
-![Load Disaggregation Model](images/EvaluationPNG.png)
+![Load Disaggregation Model](images/EvaluationPNG.PNG)
 
 ## Technologies Used
 - Python
