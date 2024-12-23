@@ -44,4 +44,4 @@ The `lowfreq/` directory contains average power readings for both the main grid 
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Identification-of-Electrical-Charges-by-Deep-Learning-RL-and-LSTM.git
+   git clone https://github.com/Hamdi708/Identification-of-Electrical-Charges-by-Deep-Learning-RL-and-LSTM.git
