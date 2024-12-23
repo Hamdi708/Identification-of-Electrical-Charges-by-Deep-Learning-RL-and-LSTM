@@ -10,7 +10,8 @@ The proposed method can be used for modeling and forecasting time series, which 
 
 ## Proposed Model
 
-![Proposed Model](images/)
+![Proposed Model](images/modelePNG.PNG
+)
 
 
 ## Keywords
