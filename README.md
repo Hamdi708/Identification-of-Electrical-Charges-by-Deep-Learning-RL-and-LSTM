@@ -2,7 +2,16 @@
 
 Energy supply and environmental mitigation are among the major challenges facing the planet today. Consequently, priority policies must be implemented to meet the growing demand for energy while simultaneously reducing the ecological footprint. In this context, strategies promoting rational and intelligent energy consumption, efforts to improve the efficiency of current energy systems, and the integration of innovative technologies are essential to find feasible and reliable solutions.
 
-Our project focuses on the identification and prediction of different electrical loads in a residential house. Specifically, we aim to disaggregate the general load curve to estimate the status of each household appliance. To achieve this, we have implemented a reinforcement learning algorithm based on a recurrent neural network, resulting in a highly accurate database.
+Our project focuses on the identification and prediction of different electrical loads in a residential house. Our reinforcement learning model, based on a Long Short-Term Memory (LSTM) recurrent neural network, is able to predict new observations from previous ones by performing a deep learning process on the collected data. This model is particularly effective for complex problems characterized by non-linearity and a non-parametric form.
+
+The proposed method can be used for modeling and forecasting time series, which is especially suitable for the problem of disaggregating the energy consumption curve from a smart meter. This approach helps optimize the accuracy of time series forecasts, enabling better energy management and prediction.
+
+
+
+## Proposed Model
+
+![Proposed Model](images/)
+
 
 ## Keywords
 - NILM (Non-Intrusive Load Monitoring)
